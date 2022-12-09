@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CalculatorGUI">
+  <grid id="27dc6" binding="firstPanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="411" height="429"/>
+    </constraints>
+    <properties>
+      <background color="-4161483"/>
+      <font name="Harrington" size="24" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a554f" class="javax.swing.JTextField" binding="inputView">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+            <preferred-size width="150" height="40"/>
+            <maximum-size width="-1" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11367"/>
+          <font name="Harrington" size="16"/>
+        </properties>
+      </component>
+      <component id="7bb57" class="javax.swing.JButton" binding="piButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Eras Medium ITC" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="π"/>
+        </properties>
+      </component>
+      <component id="ec036" class="javax.swing.JButton" binding="conversionButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="14" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="#"/>
+        </properties>
+      </component>
+      <component id="fb191" class="javax.swing.JButton" binding="acButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="18" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="18cb0" class="javax.swing.JButton" binding="additionButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="a12e0" class="javax.swing.JButton" binding="subtractionButton">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="c544f" class="javax.swing.JButton" binding="divisionButton">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="d7df3" class="javax.swing.JButton" binding="multiplicationButton">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="cb587" class="javax.swing.JButton" binding="fourButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="c6111" class="javax.swing.JButton" binding="fiveButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="73e3e" class="javax.swing.JButton" binding="sixButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="d3e07" class="javax.swing.JButton" binding="zeroButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="383df" class="javax.swing.JButton" binding="equalButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="f9eb8" class="javax.swing.JButton" binding="oneButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="ab99" class="javax.swing.JButton" binding="twoButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="163af" class="javax.swing.JButton" binding="threeButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="1721e" class="javax.swing.JButton" binding="nineButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="5f3fe" class="javax.swing.JButton" binding="eightButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="6ceaa" class="javax.swing.JButton" binding="sevenButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="77334" class="javax.swing.JButton" binding="clearOneButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="18" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="B"/>
+        </properties>
+      </component>
+      <component id="9645" class="javax.swing.JButton" binding="modulusButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="50"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7054545"/>
+          <font name="Harrington" size="24" style="1"/>
+          <foreground color="-10998240"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="405b5" class="javax.swing.JLabel" binding="errorLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-8779766"/>
+          <text value="Error!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
